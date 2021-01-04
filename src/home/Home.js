@@ -29,7 +29,7 @@ function Home() {
                 image={lemonjuice}
                 description="양파로 즙을 낸 것"
                 price={6000}
-                hot={1}
+                rating={1}
                 />
                 <Product 
                 id="3"
@@ -37,7 +37,7 @@ function Home() {
                 image={lemonjuice}
                 description="양파로 즙을 낸 것"
                 price={6000}
-                hot={1}
+                rating={1}
                 />
                 <Product 
                 id="4"
@@ -45,7 +45,7 @@ function Home() {
                 image={lemonjuice}
                 description="양파로 즙을 낸 것"
                 price={6000}
-                hot={1}
+                rating={1}
                 />
                 <Product 
                 id="5"
@@ -53,7 +53,7 @@ function Home() {
                 image={lemonjuice}
                 description="양파로 즙을 낸 것"
                 price={6000}
-                hot={1}
+                rating={1}
                 />
             </div>
             </div>

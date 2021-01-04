@@ -4,7 +4,7 @@ import './Product.css';
 import {useStateValue} from "../StateProvider/StateProvider"
 
 
-function Product({ id, title, image, description, price , hot}) {
+function Product({ id, title, image, description, price , rating}) {
     //dispatch -> how we manipulate with data
     const [{basket}, dispatch] = useStateValue();
 
@@ -20,7 +20,7 @@ function Product({ id, title, image, description, price , hot}) {
                 image: image,
                 description: description,
                 price: price,
-                hot: hot
+                rating: rating
             },
         })
     }
@@ -34,7 +34,7 @@ function Product({ id, title, image, description, price , hot}) {
                     <strong>₩{price}</strong>
                 </p>
                 <div className="product__rating">
-                    {Array(hot)
+                    {Array(rating)
                     .fill()
                     .map((_, i) => (
                         <p>
