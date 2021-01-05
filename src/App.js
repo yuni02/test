@@ -4,22 +4,23 @@ import Header from './Header';
 import Home from './home/Home'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Checkout from './checkout/Checkout';
-
+import Login from './authentication/Login';
 
 function App() {
   return (
     //BEM convention
     <Router>
       <div className="app">
-        <Header />
         <Switch>
             <Route path="/login">
-              <h1>Login page</h1>
+              <Login />
             </Route>
             <Route path="/checkout">
+            <Header />
               <Checkout />
             </Route>
             <Route path="/">
+              <Header />
               <Home />
             </Route>
         </Switch>
