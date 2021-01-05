@@ -1,12 +1,17 @@
 import './App.css';
 import Header from './Header';
-
+import React, {useEffect} from 'react';
 import Home from './home/Home'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Checkout from './checkout/Checkout';
 import Login from './authentication/Login';
 
 function App() {
+
+  useEffect(() => {
+
+  }, [])
+
   return (
     //BEM convention
     <Router>
