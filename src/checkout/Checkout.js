@@ -8,34 +8,35 @@ import CheckoutProduct from './CheckoutProduct'
 import { ListItemSecondaryAction } from '@material-ui/core';
 
 function Checkout() {
-    const [{basket}, dispatch] = useStateValue();
-    console.log(basket);
+    const [{basket, user}, dispatch] = useStateValue();
 
     return (
         <div className="checkout">
             <div className="checkout__left">
-                <img className="checkout__ad" src={banner} alt=""/>
                 <div>
+                    <h3>Hello, {user?.email}</h3>
                     <h2 className="checkout__title">
                         Your Shopping Basket
                     </h2>
-                    {basket.map(item => (
-                        <CheckoutProduct 
-                            id={item.id}
-                            title={item.title}
-                            image={item.image}
-                            description={item.description}
-                            price={item.price}
-                            rating={item.rating}
-                        />
-                    ))
-                    }
+                    <div checkout__description>
+                        {basket.map(item => (
+                            <CheckoutProduct 
+                                id={item.id}
+                                title={item.title}
+                                image={item.image}
+                                description={item.description}
+                                price={item.price}
+                                rating={item.rating}
+                            />
+                        ))
+                        }
+                    </div>
                 </div>
             </div>
 
 
             <div className="checkout__right">
-                <Subtotal />
+                <Subtotal/>
             </div>
         </div>
     )
