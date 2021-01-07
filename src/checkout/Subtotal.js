@@ -4,8 +4,10 @@ import CurrencyFormat from "react-currency-format";
 import { useStateValue } from '../StateProvider/StateProvider';
 import {useState, useEffect} from 'react';
 import {getBasketTotal} from '../StateProvider/Reducer'
+import { useHistory } from 'react-router-dom'
 
 function Subtotal() {
+    const history = useHistory();
     const [{basket}, dispatch] = useStateValue();
 
     //first attempt without CurrencyFormat API
@@ -44,7 +46,7 @@ function Subtotal() {
                 prefix={"₩"}
                 />
 
-                <button>Proceed to Checkout</button>
+                <button onClick={e => history.push('/payment')}>Proceed to Checkout</button>
         </div>
     )
 }
