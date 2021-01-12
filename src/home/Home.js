@@ -1,6 +1,5 @@
 import './Home.css';
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Product from './Product';
 import product1 from '../img/product-1.jpg'
 import product2 from '../img/product-2.jpg'
@@ -15,9 +14,8 @@ function Home() {
             <img 
                 className="home__img"
                 src={board} alt=""/>
-            
+
                 <div className="home__row">
-                
                     <Product 
                     id="1"
                     title="양파즙"
@@ -26,8 +24,6 @@ function Home() {
                     price={6000}
                     hot={1}
                     />
-                
-               
                     <Product 
                     id="2"
                     title="양파즙"
@@ -36,8 +32,6 @@ function Home() {
                     price={6000}
                     rating={1}
                     />
-                
-              
                     <Product 
                     id="3"
                     title="양파즙"
@@ -46,7 +40,6 @@ function Home() {
                     price={6000}
                     rating={1}
                     />
-           
                     <Product 
                     id="4"
                     title="양파즙"
@@ -55,7 +48,6 @@ function Home() {
                     price={6000}
                     rating={1}
                     />
-           
                     <Product 
                     id="5"
                     title="양파즙"
@@ -64,7 +56,6 @@ function Home() {
                     price={6000}
                     rating={1}
                     />
-                
                 </div>
         </div>
     )
