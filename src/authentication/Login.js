@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 // import React, { useState } from 'react'
 // import './Login.css'
 // import {Link, useHistory} from "react-router-dom";
 // import logo from '../img/logo.png'
 // import { auth } from '../configuration/firebase'
+=======
+import React, { useState } from 'react'
+import './Login.css'
+import {Link, useHistory} from "react-router-dom";
+import logo from '../img/logo.png'
+//import { auth } from '../configuration/firebase'
+>>>>>>> 9dca7a8d60c8bfee0af9fc46a5d53763ae718d3b
 
 // function Login() {
 //     const history = useHistory();
@@ -68,4 +76,8 @@
 //     )
 // }
 
+<<<<<<< HEAD
 // export default Login
+=======
+//export default Login
+>>>>>>> 9dca7a8d60c8bfee0af9fc46a5d53763ae718d3b
