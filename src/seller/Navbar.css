@@ -1,0 +1,38 @@
+.navbar__logo {
+  height: 7vh;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding-bottom: 3px;
+  font-size: 13px;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 93vh;
+  width: 200px;
+  background: white;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.navbar__link {
+  list-style: none;
+}
+
+.navbar__link {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar__link > h2 {
+  color: gray;
+}
+
+.navbar__link > p {
+  margin-left: 20px;
+}
