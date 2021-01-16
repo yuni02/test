@@ -4,6 +4,7 @@ import SellerProduct from './SellerProduct'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './Seller.css'
 
+
 function Seller() {
     return (
         <Router>
@@ -12,10 +13,11 @@ function Seller() {
                     <Route path='/seller/product'>
                         <Navbar />
                         <SellerProduct />
+                
                     </Route>
                     <Route path='/seller'>
                         <Navbar />
-                        
+
                     </Route>
                 </Switch>
             </div>
