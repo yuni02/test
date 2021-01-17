@@ -6,17 +6,13 @@
 }
 
 .sellerProduct__container {
-  background: rgb(182, 167, 167);
+  /* background: rgb(182, 167, 167); */
   width: 1200px;
   height: 95vh;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 100px 100px 100px 1fr;
   border: 2px solid gray;
-}
-
-.sellerProduct__searchbar {
-  width: 600px;
 }
 
 select {
@@ -31,8 +27,12 @@ input {
 .sellerProduct__search {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
   background: rgb(121, 112, 112);
+}
+
+.sellerProduct__searchbar {
+  width: 600px;
+  margin-left: 36px;
 }
 
 .sellerProduct__category {
@@ -47,7 +47,7 @@ input {
   display: flex;
   margin-left: 36px;
   align-items: center;
-  background: blue;
+  /* background: blue; */
 }
 
 .search-button {
@@ -68,7 +68,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: purple;
+  /* background: purple; */
   margin-left: 36px;
   margin-right: 36px;
 }
@@ -82,11 +82,11 @@ input {
 }
 
 .sellerProduct__table {
-  background: wheat;
+  /* background: wheat; */
   margin-left: 36px;
   width: 1130px;
   height: 600px;
-  border: 2px solid gray;
+  border: 2px solid rgb(167, 160, 160);
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -97,7 +97,7 @@ table {
 }
 
 .sellerProduct__table thead {
-  background-color: gray;
+  background-color: rgb(179, 176, 176);
   color: #ffffff;
 }
 
@@ -107,11 +107,11 @@ td {
 }
 
 .sellerProduct__table tbody tr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #c7c3c3;
 }
 
 .sellerProduct__table tbody tr:nth-of-type(even) {
-  background-color: #e2dede;
+  background-color: #e0dede;
 }
 
 .sellerProduct__table tbody tr:last-of-type {
