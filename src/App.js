@@ -54,6 +54,7 @@ function App() {
               <Payment />
             </Route>
             <Route path="/detail">
+              <Header />
               <Detail/>
             </Route>
             <Route path="/seller">
