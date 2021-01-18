@@ -4,14 +4,12 @@ import React, {useEffect} from 'react';
 import Home from './home/Home'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Checkout from './checkout/Checkout';
-
 //import Login from './authentication/Login';
 //import { auth } from './configuration/firebase';
-
 import { useStateValue } from './StateProvider/StateProvider';
 import Payment from './payment/Payment'
-import Detail from './detail/Detail'
-import Seller from './seller/Seller'
+import Footer from './footer/Footer';
+import ImgSlide from './slide/ImgSlide';
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -39,6 +37,7 @@ function App() {
 
   return (
     //BEM convention
+    
     <Router>
       <div className="app">
         <Switch>
@@ -51,23 +50,20 @@ function App() {
             </Route>
             <Route path="/payment">
               <Header />
+              
               <Payment />
-            </Route>
-            <Route path="/detail">
-              <Header />
-              <Detail/>
-            </Route>
-            <Route path="/seller">
-              <Seller/>
             </Route>
             <Route path="/">
               <Header />
+              
+                 <ImgSlide/>
               <Home />
+              <Footer/>
             </Route>
         </Switch>
       </div>
     </Router>
-  );
+ );
 }
 
 export default App;
