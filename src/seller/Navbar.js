@@ -1,9 +1,14 @@
 import React from 'react'
 import './Navbar.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {Link} from 'react-router-dom'
+import { FaShoppingBag, FaChair,  FaUserCog, FaCaretDown } from "react-icons/fa";
+
 
 function Navbar() {
+
+    
+
+
     return (
         <div className="navbar">
             <Link to="/seller">
@@ -14,30 +19,44 @@ function Navbar() {
                 <div className="navbar__links">
                     <div className="navbar__link">
                         <h2>
+                        <FaChair />
                         Product
+                        <FaCaretDown className="product-toggle"/>
                         </h2>
-                        <Link to="/seller/product">
-                            <p>My Products</p>
-                        </Link>
-                        <Link to="/seller/addProduct">
-                            <p>Add New Product</p>
-                        </Link>
+                        <div>
+                            <Link to="/seller/product">
+                                <p>My Products</p>
+                            </Link>
+                            <Link to="/seller/addProduct">
+                                <p>Add New Product</p>
+                            </Link>
+                        </div>
+                        
                     </div>
                     <div className="navbar__link">
                         <h2>
+                        <FaShoppingBag />
                             Order
+                        <FaCaretDown />
                         </h2>
-                        <Link to="/seller/order">
-                            <p>My Orders</p>
-                        </Link>
+                        <div>
+                            <Link to="/seller/order">
+                                <p>My Orders</p>
+                            </Link>
+                        </div>
+                        
                     </div>
                     <div className="navbar__link">
                         <h2>
+                            <FaUserCog />
                             User
+                            <FaCaretDown />
                         </h2>
-                        <Link to="/seller/user">
-                            <p>Check Users</p>
-                        </Link>
+                        <div>
+                            <Link to="/seller/user">
+                                <p>Check Users</p>
+                            </Link>
+                        </div>
                     </div>
                 </div>
                 

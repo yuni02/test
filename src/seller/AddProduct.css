@@ -1,11 +1,11 @@
-.user {
+.addProduct {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
 
-.user__container {
+.addProduct__container {
   /* background: rgb(182, 167, 167); */
   width: 1200px;
   height: 95vh;
@@ -15,45 +15,48 @@
   border: 2px solid gray;
 }
 
-.user__searchbar {
-  width: 600px;
-  display: flex;
-  align-items: center;
+.addProduct__container__head {
+  padding-left: 36px;
+  padding-top: 20px;
 }
 
-.user__searchbar > input {
-  margin-right: 10px;
-}
-
-select {
-  height: 30px;
-}
-
-input {
-  height: 30px;
-  width: 360px;
-}
-
-.user__search {
+.addProduct__search {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
   /* background: rgb(121, 112, 112); */
 }
 
-.user__category {
-  display: flex;
-  align-items: center;
+.addProduct__searchbar {
 }
 
-.user__category > p {
-  margin-right: 10px;
+.addProduct__search > input {
+  height: 30px;
+  width: 450px;
 }
 
-.user__button {
+.addProduct__searchbar {
+  width: 600px;
+  margin-left: 36px;
+}
+
+.addProduct__category {
+  height: 56px;
+}
+
+.addProduct__category > select {
+  width: 400px;
+  height: 32px;
+}
+
+.addProduct__category > p {
+  margin-right: 14px;
+}
+
+.addProduct__button {
   display: flex;
   margin-left: 36px;
   align-items: center;
+  /* background: blue; */
 }
 
 .search-button {
@@ -70,7 +73,7 @@ input {
   background: white;
 }
 
-.user__info {
+.addProduct__info {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,7 +82,7 @@ input {
   margin-right: 36px;
 }
 
-.user__info > button {
+.addProduct__info > button {
   width: 200px;
   height: 30px;
   color: aliceblue;
@@ -87,7 +90,7 @@ input {
   font-size: medium;
 }
 
-.user__table {
+.addProduct__table {
   /* background: wheat; */
   margin-left: 36px;
   width: 1130px;
@@ -102,24 +105,24 @@ table {
   text-align: left;
 }
 
-.user__table thead {
+.addProduct__table thead {
   background-color: rgb(179, 176, 176);
   color: #ffffff;
 }
 
-.user__table th,
+.addProduct__table th,
 td {
   padding: 12px 15px;
 }
 
-.user__table tbody tr {
+.addProduct__table tbody tr {
   border-bottom: 1px solid #c7c3c3;
 }
 
-.user__table tbody tr:nth-of-type(even) {
+.addProduct__table tbody tr:nth-of-type(even) {
   background-color: #e0dede;
 }
 
-.user__table tbody tr:last-of-type {
+.addProduct__table tbody tr:last-of-type {
   border-bottom: 2px solid #009879;
 }

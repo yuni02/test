@@ -43,6 +43,11 @@ input {
 
 .order__category {
   display: flex;
+  align-items: center;
+}
+
+.order__category > p {
+  margin-right: 10px;
 }
 
 .order__button {

@@ -28,8 +28,8 @@ function Order() {
                     <button className="reset-button">Reset</button>
                 </div>
                 <div className="order__info">
-                    <h2>0 Product</h2>
-                    <button>+ Add a New Product</button>
+                    <h2>0 Orders</h2>
+                    
                 </div>
                 <div className="order__table">
                     <table>
