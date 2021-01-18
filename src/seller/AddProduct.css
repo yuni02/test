@@ -11,7 +11,7 @@
   height: 95vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100px 100px 100px 1fr;
+  grid-template-rows: 100px 100px auto;
   border: 2px solid gray;
 }
 
@@ -22,11 +22,10 @@
 
 .addProduct__search {
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 50px;
   /* background: rgb(121, 112, 112); */
-}
-
-.addProduct__searchbar {
 }
 
 .addProduct__search > input {
@@ -35,12 +34,19 @@
 }
 
 .addProduct__searchbar {
-  width: 600px;
-  margin-left: 36px;
+  display: flex;
+}
+
+.addProduct__searchbar > p {
+  margin-right: 14px;
 }
 
 .addProduct__category {
+  display: flex;
   height: 56px;
+  margin-right: 160px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .addProduct__category > select {
@@ -52,77 +58,40 @@
   margin-right: 14px;
 }
 
-.addProduct__button {
+.addProduct__form {
   display: flex;
   margin-left: 36px;
-  align-items: center;
-  /* background: blue; */
+  margin-top: 60px;
 }
 
-.search-button {
-  margin-right: 20px;
-  width: 100px;
-  height: 30px;
-  color: white;
-  background: rgb(200, 73, 73);
-}
-
-.reset-button {
-  width: 100px;
-  height: 30px;
-  background: white;
-}
-
-.addProduct__info {
+.product-description {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* background: purple; */
-  margin-left: 36px;
-  margin-right: 36px;
 }
 
-.addProduct__info > button {
-  width: 200px;
-  height: 30px;
-  color: aliceblue;
-  background: rgb(200, 73, 73);
-  font-size: medium;
+.product-description > label {
+  padding: 10px;
 }
 
-.addProduct__table {
-  /* background: wheat; */
-  margin-left: 36px;
-  width: 1130px;
-  height: 600px;
-  border: 2px solid rgb(167, 160, 160);
-  border-collapse: collapse;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+.product-description > input {
+  height: 200px;
+  width: 835px;
 }
 
-table {
-  width: 1125px;
-  text-align: left;
+.price {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 120px;
 }
 
-.addProduct__table thead {
-  background-color: rgb(179, 176, 176);
-  color: #ffffff;
+.price > label {
+  padding-right: 10px;
 }
 
-.addProduct__table th,
-td {
-  padding: 12px 15px;
+.stock {
+  margin-left: 120px;
+  margin-top: 30px;
 }
 
-.addProduct__table tbody tr {
-  border-bottom: 1px solid #c7c3c3;
-}
-
-.addProduct__table tbody tr:nth-of-type(even) {
-  background-color: #e0dede;
-}
-
-.addProduct__table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+.stock > label {
+  padding-right: 6px;
 }

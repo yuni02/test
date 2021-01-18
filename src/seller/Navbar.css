@@ -6,8 +6,13 @@
   align-items: center;
   background: white;
   font-size: 13px;
-  color: rgb(175, 126, 35);
+  /* color: rgb(175, 126, 35); */
   padding-top: 70px;
+}
+
+.navbar__logo > img {
+  width: 100px;
+  height: 100px;
 }
 
 .navbar__links {
@@ -40,6 +45,10 @@
   grid-template-columns: 30px 130px 1fr;
   align-items: center;
   color: gray;
+}
+
+p {
+  color: black;
 }
 
 .navbar__link {

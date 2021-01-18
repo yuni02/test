@@ -34,7 +34,7 @@ function Seller() {
                     </Route>
                     <Route path='/seller'>
                         <Navbar />
-
+                        <SellerProduct />
                     </Route>
                 </Switch>
             </div>

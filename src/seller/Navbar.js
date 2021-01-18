@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
 import { FaShoppingBag, FaChair,  FaUserCog, FaCaretDown } from "react-icons/fa";
-
+import Logo from '../img/logo.png'
 
 function Navbar() {
 
@@ -13,9 +13,15 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <Link to="/seller">
+            {/* <Link to="/seller">
                 <div className="navbar__logo">
                     <h1>Seller Center</h1>
+                </div>
+            </Link> */}
+            <Link onClick={() => {window.location.href="/"}}>
+                <div className='navbar__logo'>
+                <img
+                src={Logo} alt=""/>
                 </div>
             </Link>
                 <div className="navbar__links">
