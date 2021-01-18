@@ -20,6 +20,11 @@
   padding-left: 10px;
   background: white;
   list-style: none;
+  transition: all 0.5ms ease-out;
+}
+
+.icon-active {
+  transform: rotateX(180deg);
 }
 
 .navbar__link > div {
@@ -49,11 +54,3 @@
 .navbar__link > p {
   margin-left: 20px;
 }
-
-/* .product-toggle {
-  transform: rotateX(180deg);
-}
-
-.navbar__link > div {
-  display: none;
-} */
