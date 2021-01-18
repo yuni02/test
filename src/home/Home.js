@@ -1,5 +1,9 @@
 import './Home.css';
 import React from 'react';
+import Collection from './Collection'
+import Best from './Best'
+import Category from './Category'
+import New from './New'
 import Product from './Product';
 import product1 from '../img/product-1.jpg'
 import product2 from '../img/product-2.jpg'
@@ -15,7 +19,11 @@ function Home() {
 
 
                 <div className="home__row">
-                    <Product 
+                    <Collection />
+                    <Best />
+                    <Category />
+                    <New/>
+                    {/* <Product 
                     id="1"
                     title="양파즙"
                     image={product1}
@@ -54,7 +62,7 @@ function Home() {
                     description="양파로 즙을 낸 것"
                     price={6000}
                     rating={1}
-                    />
+                    /> */}
                 </div>
         </div>
     )
