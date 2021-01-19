@@ -6,8 +6,13 @@
   align-items: center;
   background: white;
   font-size: 13px;
-  color: rgb(175, 126, 35);
+  /* color: rgb(175, 126, 35); */
   padding-top: 70px;
+}
+
+.navbar__logo > img {
+  width: 100px;
+  height: 100px;
 }
 
 .navbar__links {
@@ -20,6 +25,11 @@
   padding-left: 10px;
   background: white;
   list-style: none;
+  transition: all 0.5ms ease-out;
+}
+
+.icon-active {
+  transform: rotateX(180deg);
 }
 
 .navbar__link > div {
@@ -37,6 +47,10 @@
   color: gray;
 }
 
+p {
+  color: black;
+}
+
 .navbar__link {
   list-style: none;
 }
@@ -49,11 +63,3 @@
 .navbar__link > p {
   margin-left: 20px;
 }
-
-/* .product-toggle {
-  transform: rotateX(180deg);
-}
-
-.navbar__link > div {
-  display: none;
-} */

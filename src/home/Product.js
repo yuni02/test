@@ -2,7 +2,7 @@ import React from 'react'
 import fire from '../img/fire.svg';
 import './Product.css';
 import {useStateValue} from "../StateProvider/StateProvider"
-import {Link} from 'react-router-dom'
+import {Link} from "react-router-dom";
 
 
 function Product({ id, title, image, description, price , rating}) {
@@ -43,7 +43,7 @@ function Product({ id, title, image, description, price , rating}) {
                 </div>
             </div>
 
-            <Link to="/detail"> <img className="product__img" src={image} alt=""/></Link>
+            <Link to="/detail"><img className="product__img" src={image} alt=""/></Link>
             <button onClick={addToBasket}>Add to the List</button>
         </div>
     )

@@ -2,16 +2,16 @@ import './App.css';
 import Header from './Header';
 import React, {useEffect} from 'react';
 import Home from './home/Home'
+import Seller from './seller/Seller'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Checkout from './checkout/Checkout';
-
+import Detail from './detail/Detail';
 //import Login from './authentication/Login';
 //import { auth } from './configuration/firebase';
-
 import { useStateValue } from './StateProvider/StateProvider';
 import Payment from './payment/Payment'
-import Detail from './detail/Detail'
-import Seller from './seller/Seller'
+import Footer from './footer/Footer';
+import ImgSlide from './slide/ImgSlide';
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -39,6 +39,7 @@ function App() {
 
   return (
     //BEM convention
+    
     <Router>
       <div className="app">
         <Switch>
@@ -49,25 +50,31 @@ function App() {
               <Header />
               <Checkout />
             </Route>
-            <Route path="/payment">
-              <Header />
-              <Payment />
-            </Route>
+
             <Route path="/detail">
-              <Header />
+              <Header/>
               <Detail/>
             </Route>
+
+            <Route path="/payment">
+              <Header />
+              
+              <Payment />
+            </Route>
             <Route path="/seller">
-              <Seller/>
+              <Seller />
             </Route>
             <Route path="/">
               <Header />
+              
+                 <ImgSlide/>
               <Home />
+              <Footer/>
             </Route>
         </Switch>
       </div>
     </Router>
-  );
+ );
 }
 
 export default App;

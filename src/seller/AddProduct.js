@@ -21,43 +21,22 @@ function AddProduct() {
                         </select>
                     </div>
                 </div>
-                <div className="addProduct__info">
-                    <h2>0 Product</h2>
-                    <button>+ Add a New Product</button>
-                </div>
-                <div className="addProduct__table">
-                <table>
-                    <thead>
-                        <th>Product Name</th>
-                        <th>Price</th>
-                        <th>Stock</th>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td>양파즙</td>
-                        <td>3000</td>
-                        <td>40
-                        </td>
-                        
-                    </tr>
-                    <tr>
-                        <td>양파즙</td>
-                        <td>3000</td>
-                        <td>40</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>양파즙</td>
-                        <td>3000</td>
-                        <td>40</td>
-                    </tr>
-                    <tr>
-                        <td>양파즙</td>
-                        <td>3000</td>
-                        <td>40</td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div className="addProduct__form">
+                    <form  action="" method=" ">
+                        <div className="product-description">
+                            <label htmlFor="">Product Description</label>
+                            <input type="text"/>
+                        </div>
+                        <div className="price">
+                            <label htmlFor="">Price</label>
+                            <input type="text"/>
+                        </div>
+                        <div className="stock">
+                            <label htmlFor="">Stock</label>
+                            <input type="text"/>
+                        </div>
+                        {/* <button>Submit</button> */}
+                    </form>
                 </div>
             </div>
         </div>
