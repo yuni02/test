@@ -7,6 +7,7 @@ import product2 from "../ProductView/images/bed_1.jpg";
 import product3 from "../ProductView/images/bed_2.jpg";
 import "./Detail.css";
 import Data from "../ProductView/Data"
+import {useStateValue} from "../StateProvider/StateProvider";
 
 
 function Detail() {
@@ -14,6 +15,7 @@ function Detail() {
   const [quantity, setQuantity] = useState(1);
   const [product, setProduct] = useState(Data);
   const [img, setImg] = useState([product1, product2, product3]);
+  const [{basket}, dispatch] = useStateValue();
 
   const {id} = useParams();
   <Product id={id}/>
@@ -65,11 +67,23 @@ function Detail() {
           <p className="detail__product_totalPrice">
             총 금액 {new Intl.NumberFormat().format(product[id].price * quantity)}원
           </p>
-          <Link to='/checkout'><button className="detail__keep">장바구니</button>
-          </Link>
-          <Link to='/payment'>
+            <button className="detail__keep" onClick={()=>{
+              dispatch(
+                {type:'ADD_TO_BASKET',
+                 item: {
+                  id: product[id].id,
+                  title: product[id].title,
+                  image: img[id],
+                  description: product[id].description,
+                  price: Intl.NumberFormat().format(product[id].price * quantity),
+                  rating: product[id].rating
+                }}
+              )
+            }}>장바구니</button>
+          
+          
           <button className="detail__order">주문하기</button>
-          </Link>
+          
         </div>
       </div>
       <Tabs />

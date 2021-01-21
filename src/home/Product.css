@@ -52,7 +52,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 5px;
-<<<<<<< HEAD
+
 }
 
 /*img hover*/
@@ -118,6 +118,4 @@ a:hover .screen span:nth-child(3) {
 a:hover .screen span:nth-child(4) {
   height: 100%;
 }
-=======
-}
->>>>>>> 19baeff4b9c23da3c31e99393bff719b0b0a91fd
+

@@ -10,7 +10,7 @@ export default [
         {
         id:1,
         title:"가죽 침대",
-        description:"따뜻한 느낌의 원목 침대",
+        description:"고급스러운 느낌의 가죽 침대",
         price:1230000,
         rating:1          
     },

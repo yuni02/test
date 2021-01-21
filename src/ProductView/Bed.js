@@ -3,7 +3,7 @@ import Product from '../home/Product';
 import product1 from './images/bed_0.jpg';
 import product2 from './images/bed_1.jpg';
 import product3 from './images/bed_2.jpg';
-import Detail from '../detail/Detail';
+import './Bed.css';
 import Data from './Data'
 
 export const detailContext = React.createContext();
