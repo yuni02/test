@@ -1,0 +1,125 @@
+.order {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.order__container {
+  /* background: rgb(182, 167, 167); */
+  width: 1200px;
+  height: 95vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 100px 100px 1fr;
+  border: 2px solid gray;
+}
+
+.order__searchbar {
+  width: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.order__searchbar > input {
+  margin-right: 10px;
+}
+
+select {
+  height: 30px;
+}
+
+input {
+  height: 30px;
+  width: 350px;
+}
+
+.order__search {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  /* background: rgb(121, 112, 112); */
+}
+
+.order__category {
+  display: flex;
+  align-items: center;
+}
+
+.order__category > p {
+  margin-right: 10px;
+}
+
+.order__button {
+  display: flex;
+  margin-left: 36px;
+  align-items: center;
+}
+
+.search-button {
+  margin-right: 20px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  background: rgb(200, 73, 73);
+}
+
+.reset-button {
+  width: 100px;
+  height: 30px;
+  background: white;
+}
+
+.order__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: purple; */
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.order__info > button {
+  width: 200px;
+  height: 30px;
+  color: aliceblue;
+  background: rgb(200, 73, 73);
+  font-size: medium;
+}
+
+.order__table {
+  /* background: wheat; */
+  margin-left: 36px;
+  width: 1130px;
+  height: 600px;
+  border: 2px solid rgb(167, 160, 160);
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+table {
+  width: 1125px;
+  text-align: left;
+}
+
+.order__table thead {
+  background-color: rgb(179, 176, 176);
+  color: #ffffff;
+}
+
+.order__table th,
+td {
+  padding: 12px 15px;
+}
+
+.order__table tbody tr {
+  border-bottom: 1px solid #c7c3c3;
+}
+
+.order__table tbody tr:nth-of-type(even) {
+  background-color: #e0dede;
+}
+
+.order__table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
