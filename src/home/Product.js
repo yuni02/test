@@ -39,7 +39,6 @@ function Product(/*{ id, title, image, description, price , rating}*/props) {
                     .map((_, i) => (
                         <p>
                         {/* <img src={fire} alt=""/> */}
-                        재고 00개
                         </p>
                     ))}
                 </div>

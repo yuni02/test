@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import Tabs from "./Tabs";
-import {Link, useParams} from "react-router-dom";
+import {Link, useParams, useHistory} from "react-router-dom";
 import Product from "../home/Product";
 import product1 from "../ProductView/images/bed_0.jpg";
 import product2 from "../ProductView/images/bed_1.jpg";
@@ -16,6 +16,7 @@ function Detail() {
   const [product, setProduct] = useState(Data);
   const [img, setImg] = useState([product1, product2, product3]);
   const [{basket}, dispatch] = useStateValue();
+  const history = useHistory();
 
   const {id} = useParams();
   <Product id={id}/>
@@ -82,7 +83,20 @@ function Detail() {
             }}>장바구니</button>
           
           
-          <button className="detail__order">주문하기</button>
+          <button className="detail__order"  onClick={()=>{
+              dispatch(
+                {type:'ADD_TO_BASKET',
+                 item: {
+                  id: product[id].id,
+                  title: product[id].title,
+                  image: img[id],
+                  description: product[id].description,
+                  price: Intl.NumberFormat().format(product[id].price * quantity),
+                  rating: product[id].rating
+                }}
+              )
+              history.push('/payment')
+            }}>주문하기</button>
           
         </div>
       </div>

@@ -16,6 +16,7 @@ import ImgSlide from './slide/ImgSlide';
 import LandingPage from './landingpage/LandingPage';
 import Bed from './ProductView/Bed';
 import ReviewForm from './detail/ReviewForm';
+import QnAForm from './detail/QnAForm';
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -76,6 +77,10 @@ function App() {
 
             <Route path="/review">
               <ReviewForm/>
+            </Route>
+
+            <Route path="/QnA">
+              <QnAForm/>
             </Route>
 
             <Route path="/payment">

@@ -10,9 +10,9 @@ function Review(){
     const history = useHistory();
 
     const [user_name, setUser] = useState(['초롱이','똘똘이','깜찍이']);
-    const [review, setReview] = useState(['잘썼어요.','좋았어요','감사해요']);
+    const [review, setReview] = useState(['태어나서 이렇게 편한 침대는 처음이었습니다.','신혼집에 장만한 침대인데 만족해요. 이리저리 굴러도 떨어질 일 없이 넓어요.','모서리가 뭉특하면 좋겠어요. 별점 하나 깎습니다.']);
     const [picture, setPicture] = useState([
-        <img alt="" src="https://image.oliveyoung.co.kr/uploads/images/gdasEditor/2020/11/27/1606471983695.png?RS=165x0&CS=165x165"></img>
+        <img alt="" src="http://www.acebed.com/manage/upload_files/prdt_bed/atch_image/201810/P_list(9)(4).jpg"></img>
     ])
 
 
@@ -38,7 +38,7 @@ function Review(){
                         <div className="graph1">0%</div> 
                     </div>
                 </div>
-                <div className="review__button">
+                <div className="review__button_">
                     <p>리뷰를 작성해보세요</p>
                     {
                       user == null ?  
