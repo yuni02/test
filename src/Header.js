@@ -49,11 +49,12 @@ function Header() {
                  </div>
                  </Link>
 
-               
+                 <Link to="/seller">
                 <div className='header__option'>
                     <span className='header__optionLineOne'>Returns</span>
                     <span className='header__optionLinetwo'>Orders</span>
                 </div>
+                </Link>
                 <Link to="/seller">
                 <div className='header__option'>
                     <span className='header__optionLineOne'>seller</span>

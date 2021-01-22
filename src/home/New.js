@@ -15,16 +15,16 @@ function New(){
             <img src={new1} alt="신제품"/>
             </a>
           </dvi>
-          <dvi className="new_item">
+          <div className="new_item">
           <a href="#">
             <img src={new2} alt="신제품"/>
             </a>
-          </dvi>
-          <dvi className="new_item">
+          </div>
+          <div className="new_item">
           <a href="#">
             <img src={new3} alt="신제품"/>
             </a>
-          </dvi>
+          </div>
         </div> 
         </div> 
     )

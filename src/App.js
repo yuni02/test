@@ -6,12 +6,17 @@ import Seller from './seller/Seller'
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Checkout from './checkout/Checkout';
 import Detail from './detail/Detail';
+import Data from './ProductView/Data';
 import Login from './authentication/Login';
 import { auth } from './configuration/firebase';
 import { useStateValue } from './StateProvider/StateProvider';
 import Payment from './payment/Payment'
 import Footer from './footer/Footer';
 import ImgSlide from './slide/ImgSlide';
+import LandingPage from './landingpage/LandingPage';
+import Bed from './ProductView/Bed';
+import ReviewForm from './detail/ReviewForm';
+import QnAForm from './detail/QnAForm';
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -20,7 +25,6 @@ function App() {
 
     auth.onAuthStateChanged(authUser => {
       console.log('THE USER IS >>>', authUser)
-
       if (authUser) {
         // the user logged in
         dispatch({
@@ -42,18 +46,38 @@ function App() {
     
     <Router>
       <div className="app">
-        <Switch>
+        <Switch>	
+	<Route path="/landingpage">
+        <Header/>
+              <LandingPage />
+              <Footer/>
+            </Route>
+	
             <Route path="/login">
               <Login />
             </Route>
+
             <Route path="/checkout">
               <Header />
               <Checkout />
             </Route>
 
-            <Route path="/detail">
-              <Header/>
-              <Detail/>
+            <Route path="/bed">
+              <Header />
+              <Bed />
+            </Route>
+
+            <Route path="/detail/:id">
+              <Header />
+              <Detail />
+            </Route>
+
+            <Route path="/review">
+              <ReviewForm/>
+            </Route>
+
+            <Route path="/QnA">
+              <QnAForm/>
             </Route>
 
             <Route path="/payment">
