@@ -4,7 +4,7 @@ import './Product.css';
 import {useStateValue} from "../StateProvider/StateProvider"
 import {useHistory, useParams} from "react-router-dom";
 
-function Product(/*{ id, title, image, description, price , rating}*/props) {
+function Product({ id, title, image, description, price , rating},props) {
     //dispatch -> how we manipulate with data
     const [{basket}, dispatch] = useStateValue();
 
@@ -17,13 +17,15 @@ function Product(/*{ id, title, image, description, price , rating}*/props) {
             item: {
                 id:props.props.id,
                 title:props.props.title,
-                image: props.image,
+                image: props.props.image,
                 description: props.props.description,
                 price: props.props.price,
                 rating: props.props.rating
             },
         })
     }
+
+   
     
     return (
         <div className='product'>

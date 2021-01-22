@@ -10,21 +10,21 @@ function New(){
         <div className="home_container">
         <p className="title">신제품을 만나보세요</p>
         <div className="content">
-          <dvi className="new_item">
+          <div className="new_item">
           <a href="#">
             <img src={new1} alt="신제품"/>
             </a>
-          </dvi>
-          <dvi className="new_item">
+          </div>
+          <div className="new_item">
           <a href="#">
             <img src={new2} alt="신제품"/>
             </a>
-          </dvi>
-          <dvi className="new_item">
+          </div>
+          <div className="new_item">
           <a href="#">
             <img src={new3} alt="신제품"/>
             </a>
-          </dvi>
+          </div>
         </div> 
         </div> 
     )
