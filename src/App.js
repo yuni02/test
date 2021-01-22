@@ -25,6 +25,7 @@ function App() {
 
     auth.onAuthStateChanged(authUser => {
       console.log('THE USER IS >>>', authUser)
+
       if (authUser) {
         // the user logged in
         dispatch({
@@ -41,12 +42,14 @@ function App() {
     })
   }, [])
 
+
   return (
     //BEM convention
     
     <Router>
       <div className="app">
-        <Switch>	
+        <Switch>
+	
 	<Route path="/landingpage">
         <Header/>
               <LandingPage />

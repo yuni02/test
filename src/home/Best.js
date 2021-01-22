@@ -9,7 +9,7 @@ import table from './images/table.jpg';
 
 function Best(){
     return(
-        <div className="best_container">
+        <div className="home_container">
         <p className="title">인기상품을 만나보세요</p>
         <div className="content">
           <div className="best_item">
@@ -29,8 +29,7 @@ function Best(){
             <img src={chair} alt="의자"/>
             </a>
           </div>
-        </div>
-        <div className="content">
+
           <div className="best_item">
             <a href="#">
             <img src={rug} alt="러그"/>
