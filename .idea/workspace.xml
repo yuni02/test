@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08dc5208-832b-4f9c-be4b-79a00a907909" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/Bath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/Bed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/Bed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/Kitchen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/Kitchen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/images/bed_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/images/bed_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductView/images/bed_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateProvider/Reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StateProvider/StateProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/authentication/Login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/authentication/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/BasketItem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/BasketItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/Checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/Checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/CheckoutProduct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/CheckoutProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/Subtotal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/checkout/Subtotal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Detail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Detail_data.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Detail_data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Product_info.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Product_info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/QnA.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/QnA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/QnAForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Review.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/ReviewForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/detail/Tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Best.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Best.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Category.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Collection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/New.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/New.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/Main_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/bathroom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/bed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/bedroom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/bookshelf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/cabinet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/carpet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/chair.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/furniture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/homedecor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/kitchen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/kitchen_product.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/lamp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/livingroom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/mattress.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/new1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/new2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/new3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/rug.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/sofa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home/images/table.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/banner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/board.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/fire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/furniture1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/lemon-juice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/pushup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/squat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/yoga.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/Animations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/Hamburger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/LandingHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/LandingPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/LandingPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/austin.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/bathroom.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/bed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/beijing.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/dallas.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/kitchen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/lighting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/newyork.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/sanfrancisco.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/landingpage/images/storage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/payment/Payment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/payment/Payment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/AddProduct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/AddProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/Order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/Seller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/Seller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/SellerProduct.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/SellerProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/User.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seller/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sidebar/AllProducts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sidebar/Sidebar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sidebar/Sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slide/ImgSlide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slide/Slide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slide/Slide.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductView/Bath.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pub/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nTNqkoe03GEV05p3wQvmKOyAJV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08dc5208-832b-4f9c-be4b-79a00a907909" name="Default Changelist" comment="" />
+      <created>1611410315854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611410315854</updated>
+      <workItem from="1611410318151" duration="4693000" />
+      <workItem from="1611418152051" duration="2724000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
